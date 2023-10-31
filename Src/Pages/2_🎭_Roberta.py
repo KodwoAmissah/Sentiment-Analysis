@@ -18,7 +18,7 @@ lottie_animation_url = "https://lottie.host/014d5a0c-6902-4502-b791-33f924c9f682
 
 #define header
 with header:
-    header.title("Determing The Sentiment Of Covid-19 Vaccine Tweets Using Distilbert Model")
+    header.title("Determing The Sentiment Of Covid-19 Vaccine Tweets Using Roberta Model")
 
     # Display the Lottie animation using st_lottie
     st_lottie(lottie_animation_url,height=200)
@@ -32,7 +32,7 @@ def load_model_and_tokenizer(model_name):
     return model, tokenizer
 
 # Load model and tokenizer
-model_name = "Kodwo11/Kodwo-Finetuned-distilbert-model"
+model_name = "Kodwo11/Roberta-Sentiment-Classifier"
 model, tokenizer = load_model_and_tokenizer(model_name)
 
 # Define text preprocessing function
