@@ -22,7 +22,7 @@ with header:
     # Display the Lottie animation using st_lottie
     st_lottie(lottie_animation_url,height=200)
 
-    header.write("On this page,you can determine the sentiment of Covid-19 tweets")
+    header.write("On this page,you can determine the sentiment of Covid-19 vaccine tweets")
 
 @st.cache_resource()  # Cache the model and tokenizer
 def load_model_and_tokenizer(model_name):
