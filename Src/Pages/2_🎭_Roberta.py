@@ -88,7 +88,7 @@ if st.button("Analyze Sentiment"):
 
 st.write("""Example of sentences to input:
          
-    - The New Vaccine is Bad \n
+    - The New Vaccine is  \n
     - Getting my vaccines !\n
     - Covid-19 is spreading fast
     
