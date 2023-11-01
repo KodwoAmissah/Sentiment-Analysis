@@ -4,14 +4,13 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from streamlit_lottie import st_lottie
-from transformers import AutoTokenizer,AutoModelForSequenceClassification,AutoConfig
+from transformers import AutoTokenizer,AutoModelForSequenceClassification
 import re
 from scipy.special import softmax
 import torch 
 
 #define app section
 header=st.container()
-prediction=st.container()
 
 # Define the Lottie animation URL
 lottie_animation_url = "https://lottie.host/014d5a0c-6902-4502-b791-33f924c9f682/3d9JZRiBJd.json"
