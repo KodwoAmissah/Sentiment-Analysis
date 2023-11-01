@@ -17,7 +17,7 @@ lottie_animation_url = "https://lottie.host/014d5a0c-6902-4502-b791-33f924c9f682
 
 #define header
 with header:
-    header.title("Determing The Sentiment Of Covid-19 Vaccine Tweets Using Roberta Model")
+    header.title("Determing The Sentiment Of Covid-19 Vaccine Tweets Using Roberta Base Model")
 
     # Display the Lottie animation using st_lottie
     st_lottie(lottie_animation_url,height=200)
