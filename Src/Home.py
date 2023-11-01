@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # Title and Lottie animation
-st.markdown("# 👋 Welcome To Team Cape Cod's Sales Sentiment Analysis App")
+st.markdown("# 👋 Welcome To Team Cape Cod's Sentiment Analysis App")
 
 lottie_animation_url = "https://lottie.host/543b1c58-ed15-49db-a83a-2aec9909b945/gJQjDHOswZ.json"
 st_lottie(lottie_animation_url, height=200)
@@ -41,7 +41,7 @@ html_content = """
     <h3>Variable Definition:</h3>
     <p><strong>safe_tweet:</strong> Text contained in the tweet with sensitive information removed</p>
     <p><strong>label:</strong> Sentiment of the tweet (-1 for negative, 0 for neutral, 1 for positive)</p>
-    <p><strong>agreement:</strong> The tweets were labeled by three people, and agreement indicates the percentage of reviewers that agreed on the label. This column can be used for training but is not shared for the test set.</p>
+    <p><strong>agreement:</strong> The tweets were labeled by three people, and agreement indicates the percentage of reviewers that agreed on the label.</p>
 </div>
 """
 
