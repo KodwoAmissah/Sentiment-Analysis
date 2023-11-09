@@ -2,7 +2,7 @@
 
 ## Project Objective
 
-The objective of this  is to fine-tune a pre-trained model to determine the sentiments of a Twitter post whether positive,neutral or negative.
+The objective of this  is to fine-tune a pre-trained model to determine the sentiments of Twitter posts whether they are positive,neutral or negative.
 
 ## What you will find in this repository
 
@@ -29,19 +29,13 @@ For manual installation, you need to have [`Python3`](https://www.python.org/) o
 
 ## App In Use 😃
 
-
-
 https://github.com/KodwoAmissah/Sentiment-Analysis/assets/137364174/11ded75c-5234-43ec-be0a-3c6936b87c9e
-
-
-
 
 ## Summary
 
  | Project's Name | Published Article  | Deployed App |
 |:--------------:|:--------------:|:--------------:|
 | Sentiment Analysis |[Project Article](https://medium.com/@kodwoam/using-pre-trained-models-to-predict-twitter-sentiments-41895f4051c9) |    [Deployed App](https://huggingface.co/spaces/Kodwo11/Sentiment_Analysis)|
-
 
 ## Author
 
