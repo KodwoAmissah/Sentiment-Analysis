@@ -31,6 +31,10 @@ For manual installation, you need to have [`Python3`](https://www.python.org/) o
 
 
 
+https://github.com/KodwoAmissah/Sentiment-Analysis/assets/137364174/11ded75c-5234-43ec-be0a-3c6936b87c9e
+
+
+
 
 ## Summary
 
